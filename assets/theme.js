@@ -1,0 +1,21 @@
+// theme.jsx
+// Catppuccin Mocha palette — the single source of truth for color.
+// Every component's StyleSheet should pull from `colors` instead of
+// hardcoding hex values.
+
+export const colors = {
+  base: "#1e1e2e",
+  mantle: "#181825",
+  surface0: "#313244",
+  surface1: "#45475a",
+  text: "#cdd6f4",
+  subtext: "#a6adc8",
+  overlay: "#6c7086",
+  lavender: "#b4befe",
+  blue: "#89b4fa",
+  mauve: "#cba6f7",
+  green: "#a6e3a1",
+  red: "#f38ba8",
+  peach: "#fab387",
+  yellow: "#f9e2af",
+};
