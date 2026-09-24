@@ -64,6 +64,14 @@ You'll be playing a round-based commit game for the full session.
 - Throughout the components, there are static variables standing in for what should be real state — some paired with commented-out or empty handler functions, others just sitting there unused.
 - Find them, and work together to turn them into working `useState` (or, where the logic is already written for you, just the missing state declaration).
 
+```jsx
+setItems((prevItems) => [...prevItems, newItem]);
+```
+
+```jsx
+setItems((prevItems) => prevItems.filter((item) => item.id !== id));
+```
+
 ## Task 2: TypeScript
 
 Each component has an inline comment marking what it needs. In general:

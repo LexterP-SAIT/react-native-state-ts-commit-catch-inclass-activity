@@ -15,12 +15,11 @@ export function TodoSection() {
 
   const addTodoItem = (title) => {
     const newTodo = { id: generateId(), title };
-    // this is an industry standard pattern
-    // setTodos((prevTodos) => [...prevTodos, newTodo]);
+    // add item to the existing array
   };
 
   const deleteTodoItem = (id) => {
-    // setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== id));
+    // Delete item state logic
   };
 
   return (
