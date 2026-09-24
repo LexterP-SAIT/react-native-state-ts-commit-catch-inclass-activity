@@ -19,7 +19,7 @@ export function TodoSection() {
   };
 
   const deleteTodoItem = (id) => {
-    // Delete item state logic
+
   };
 
   return (
