@@ -74,3 +74,9 @@ Each component has an inline comment marking what it needs. In general:
 - Every component that takes props needs a `type` or `interface`
   describing those props, used to type its destructured parameters.
 - Once everything is converted, turn on strict type checking
+
+## AI Usage and Attributions
+
+- Colours and Themes from Catpuccin
+- AI used to generate some of the code in the components
+- AI used to summarize activity instructions from instructor notes & planning materials
